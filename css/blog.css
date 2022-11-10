@@ -1,0 +1,44 @@
+.blog {}
+
+.left {
+    margin-right: 25px;
+}
+.right {
+    margin-left: 25px;
+}
+
+.blog-post {
+    padding: 60px 50px;
+    border: 2px solid #018ABE;
+    border-radius: 20px;
+    display: flex;
+}
+
+.blog-post:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.blog-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'ElMessiri', serif;
+}
+
+.blog-text {
+    margin-bottom: 40px;
+}
+
+.blog-button {
+    text-decoration: none;
+    background: #018ABE;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.blog-image {
+    width: 564px;
+    height: 430px;
+}

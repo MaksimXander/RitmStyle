@@ -1,0 +1,31 @@
+.post {
+    display: flex;
+}
+
+.post > .left, .post > .right {
+    width: 50%;
+}
+
+.post > .left {
+    margin-right: 67px;
+}
+
+.left > .title {
+    font-size: 24px;
+    font-family: 'ElMessiri', serif;
+    margin-bottom: 30px;
+}
+.left>.post-content {
+    font-family: 'ProximaNova', serif;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.post >.right {
+    margin-left: 67px;
+    display: flex;
+}
+.post-image {
+    border-radius: 10px;
+    margin: auto;
+}
